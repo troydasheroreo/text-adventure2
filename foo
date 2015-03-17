@@ -1,0 +1,8 @@
+#!/usr/bin/env python3 
+
+import json
+
+with open('about.json') as about_file:
+  about =  json.load(about_file)
+
+print(about)
